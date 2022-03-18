@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    min-width: 100%;
+}
+body{
+    font-size: 1.75rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    padding: 25% 5% 10%;
+    margin: 0;
+}
+.adviceContainer{
+    max-width: 500px;
+    margin-bottom: 3rem;
+    position: relative;
+    padding: 3% 5%;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 0.625rem;
+}
+.advice__id{
+    font-size: 0.75rem;
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.125rem;
+}
+.advice__text{
+    color:  hsl(193, 38%, 86%);
+}
+.dividerImg{
+    margin-bottom: 3rem;
+}
+.advice__button{
+    border: none;
+    position: absolute;
+    bottom: -2rem;
+    left: calc(50% - 2rem);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+    background-color: hsl(150, 100%, 66%);
+    background-image: url("../images/icon-dice.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.advice__button:hover{
+    box-shadow: 0 0 1rem 0.5rem hsl(150, 100%, 66%);
+}
+.footer{
+    font-size: 1rem;
+}
+.footer__a{
+    text-decoration: none;
+    color: hsl(150, 100%, 66%);
+}
+
+@media only screen and (min-width: 550px){
+    
+    body{
+        padding-top: 12%;
+    }
+    .adviceContainer{
+        margin: 0 auto 3rem;
+        padding: 2% 1.375rem;
+    }
+}
