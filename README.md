@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [URL](https://srijan945.github.io/Advice-generator-app/)
+- Live Site URL: [URL](https://srijan945.github.io/Advice-Generator-App/)
 
 ### Built with
 
